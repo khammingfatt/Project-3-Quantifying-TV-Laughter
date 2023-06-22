@@ -94,17 +94,27 @@ We went further and break down the important features to classify the two shows 
 <br>
 <br>
 
-## Summary of Feature Selection from Each Model
-We did 3 different models - **Linear, Lasso and Ridge Regression Models** for Model 1, Model 2 and Model 3 respectively.
+## Modeling
+
+In the field of Natural Language Processing (NLP), several techniques are employed to process and analyze textual data. These techniques play a crucial role in extracting meaningful information and insights from text documents. In our project, we applied various NLP techniques to preprocess and analyze the data.
+
+**Tokenization** is the first step in NLP, where a text document is divided into smaller units called tokens. These tokens can be words, sentences, or even subwords, depending on the level of granularity required. By breaking down the text into tokens, we gain a better understanding of the underlying structure and can perform further analysis on individual units.
+
+**Stopword removal** is another important step in NLP. Stopwords are common words that do not carry significant meaning in a given context, such as articles (e.g., "a", "an", "the"), pronouns, and prepositions. Removing stopwords helps to reduce noise and focus on the more relevant and informative words in the text.
+
+**Lemmatization** is a technique used to reduce words to their base or dictionary form, known as the lemma. It helps to standardize words by considering their morphological variations, such as different verb tenses or plural forms. By lemmatizing words, we ensure that similar forms of a word are treated as the same, which aids in effective text analysis and understanding.
+
+Upon finished preprocessing the input, we are ready to deploy our data into **Machine Learning**.
 
 <br>
 
-| Model | Feature Selection Description |
-|---|---|
-| Baseline | (1) model runs with all numeric features <br> (2) Used as a baseline to evaluate model performance | 
-| Model 1 | (1) Feature selection based on domain knowledge <br>(2) Elements that are known to affect housing prices | 
-| Model 2 | (1) The features selection are based on features correlation <br>(2) Feature engineering of region against flat types <br>(3) Popularity ranking of primary schools <br>(4) Availability of amenities |
-| Model 3 |(1) Feature selection based on model 1 features and <br>(2) Feature importance from previous models| 
+![Model Workflow](https://github.com/khammingfatt/Project-3-Quantifying-TV-Laughter/blob/main/Modeling%20Workflow.jpg?raw=true) |
+
+
+With reference to the workflow above, we used **vectorization techniques**. Vectorization involves transforming text data into numerical representations that machine learning models can process. One common approach is the **Count Vectorisation Model**, where each word in the text is represented as a separate feature, and the frequency or occurrence of each word is captured. Another approach is **Term Frequency-Inverse Document Frequency (TF-IDF)**, which considers not only the frequency of a word in a document but also its importance in the entire corpus.
+
+Upon finished running the model, we ran a total of 17 combinations of models with more than 1,000 hyperparameters tuning by using **GridSearchCV**. Eventually, the Mutilnomial with Naive Bayes + TF-IDF with GridSearchCV turned out to be the best performed model of all and we are deploying the model into our Streamlit Applications.
+
 
 
 <br>

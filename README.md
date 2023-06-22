@@ -7,7 +7,7 @@
 
 | **Brooklyn's Nine Nine** | **The Big Bang Theory**  |
 | ------------------------ | -----------------------  |
-| ![Brooklyn's Nine Nine](image1.png)| ![The Big Bang Theory](image2.png) |
+| ![Brooklyn's Nine Nine](https://github.com/khammingfatt/Project-3-Quantifying-TV-Laughter/blob/main/B99_Image.jpg?raw=true)| ![The Big Bang Theory](https://github.com/khammingfatt/Project-3-Quantifying-TV-Laughter/blob/main/BBT_Image.jpg?raw=true) |
 
 <br>
 
@@ -41,7 +41,7 @@ The competition among these major players reflects the growing demand for on-dem
 ## Problem Statement
 Netflix aims to optimize their limited budget by retaining the most popular and engaging sitcom for their platform. To make an informed decision, they require an efficient machine learning solution that can accurately classify and analyze user comments from various platforms, paricularly two famous sitcom "Big Bang Theory" and "Brooklyn Nine Nine." The goal is to develop an infrastructure that can effectively identify which show the viewers' comments are referring to and analyze the sentiments expressed towards each show. This solution will enable the streaming company to gain valuable insights into viewers' preferences, aiding them in determining the sitcom to retain, maximizing viewer satisfaction and engagement within the budgetary constraints.
 
-	(1) Identify which sitcom to retain due to the limited budget
+	(1) Identify what show elements in the sitcom are popular among the viewers
 
 	(2) To build an infrastructure that can help to classify and analyse user's comments about the show from various platforms
 
@@ -60,7 +60,7 @@ Netflix aims to optimize their limited budget by retaining the most popular and 
 ### Brief Description of Our Data Exploration
 Upon studying the datasets, we found out that these are the most important 10 factors that affects the housing price are given as below. Starting from the most important factor, we have floor area per square feet, max floor level and lease commence date.
  
-![SHAP Importance of Variables](https://github.com/khammingfatt/Project-2-Your-House-Your-Future-Linear-Ridge-Lasso-Modelling/blob/main/SHAP%20Importance%20of%20Values.png?raw=true)
+![SHAP Importance of Variables](https://github.com/khammingfatt/Project-3-Quantifying-TV-Laughter/blob/main/SHAP.png?raw=true)
 <br>
 
 We went further and engineered some additional features to assist us in building the most accurate model and summarised in the data dictionary below.
@@ -125,9 +125,10 @@ We did 3 different models - **Linear, Lasso and Ridge Regression Models** for Mo
 
 
 ## Key Insights
-### Common 
-* Character names are widely mentioned in both shows
-* 'Episode', 'like' and 'favorite' are commonly found in comments from both shows 
+### Overall 
+* Viewers frequently engage in discussions about popular show elements such as Cold Open, Halloween Heist, and potential sequels.
+* Topics that garner significant attention from viewers include their favorite characters and least favorite scenes.
+* Viewers actively discuss sitcom characters in their comments about the shows. 
 
 ### Brooklyn's Nine Nine
 * 'Scene' is commonly mentioned in Brooklyn's Nine Nine
@@ -141,12 +142,11 @@ We did 3 different models - **Linear, Lasso and Ridge Regression Models** for Mo
 
 
 
-
 ## Key Recommendations
  
-	(1) Identify adaptable show elements into future Netflix Shows
-	(2) Identify HOT topics to be incorporated into entertainment news
-	(3) Classification Analysis on Uncategorised Sources  
+	(1) Create memorable and likable characters to enhance viewer engagement.
+	(2) Utilize the "Cold Open" narrative technique, which is widely discussed by viewers.
+	(3) Incorporate periodic special events within the show to generate anticipation and excitement among viewers. 
 
 ## Future Work
 	(1) Model can be expanded to Multi-Class Classification

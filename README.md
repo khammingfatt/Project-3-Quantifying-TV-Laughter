@@ -1,4 +1,4 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project 3: Quantifying TV Laughter:-A Data-Backed Guide for Brooklyn Nine-Nine and Big Bang Theory Investment
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project 3: Unveiling the Recipe for Comedy Success: Analyzing Viewer Preferences and Sentiment towards Popular Sitcoms
 
 ### **Try Out our B99 vs BBT Classifier Application Streamlit App by clicking the link below.**
 ### [Brooklyn's Nine Nine and The Big Bang Theory Classifier and Sentiment Analysis](https://project-2streamlit-application-house-price-predictionr-n4fym7.streamlit.app/)
@@ -63,9 +63,15 @@ Upon studying the datasets, we found out that these are the most important 10 fa
 ![SHAP Importance of Variables](https://github.com/khammingfatt/Project-3-Quantifying-TV-Laughter/blob/main/SHAP.png?raw=true)
 <br>
 
-We went further and engineered some additional features to assist us in building the most accurate model and summarised in the data dictionary below.
+We went further and break down the important features to classify the two shows separately and here are the details we get. The more positive the coefficient values, the more likely it is classified to Class 1 - Brooklyn's Nine Nine; On the other hand, the more negative the coefficient values, the more likely it is classified to Class 0 - The Big Bang Theory.
+
 <br>
 
+| **Brooklyn's Nine Nine** | **The Big Bang Theory**  |
+| ------------------------ | -----------------------  |
+| ![Brooklyn's Nine Nine](https://github.com/khammingfatt/Project-3-Quantifying-TV-Laughter/blob/main/Feature%20Importance%20B99.png?raw=true)| ![The Big Bang Theory](https://github.com/khammingfatt/Project-3-Quantifying-TV-Laughter/blob/main/Feature%20Importance%20BBT.png?raw=true) |
+
+<br>
 
 ## Data Dictionary
 | **Feature**         | **Type** | **Dataset**  | **Description**                                                  |
@@ -119,10 +125,6 @@ We did 3 different models - **Linear, Lasso and Ridge Regression Models** for Mo
 
 
 
-<br>
-
----
-
 
 ## Key Insights
 ### Overall 
@@ -160,17 +162,23 @@ https://www.reddit.com/r/brooklynninenine/
 
 (2) The source of data for comments and posts for The Big Bang Theory <br> https://www.reddit.com/r/bigbangtheory/
 
-(3) Mapview of URA Planning Area
-<br> https://www.ura.gov.sg/-/media/Corporate/Property/REALIS/realis-maps/map_ccr.pdf
+(3) Preferred digital video content by genre in the U.S. as of March 2023
+<br> https://www.statista.com/forecasts/997166/preferred-digital-video-content-by-genre-in-the-us#:~:text=%22Comedies%22%20and%20%22Dramas%22,the%20United%20States%2C%20in%202023
 
-(4) HDB Property Prices Near Popular Primary Schools: Do They Really Cost More?
-<br> https://dollarsandsense.sg/hdb-property-prices-near-popular-primary-schools-really-cost/
+(4) Importance of Video Streaming Attributes
+<br> https://www.nielsen.com/insights/2020/playback-time-which-consumer-attitudes-will-shape-the-streaming-wars/
 
-(5) The URA Property Price Index (PPI) has an upward trend across the years from 2001 to 2019
-<br> https://darrenong.sg/blog/is-it-profitable-to-buy-property-during-a-crisis/amp/
+(5) Reasons for Subcribing to Additional Paid Video Streaming Services
+<br>  https://www.nielsen.com/insights/2020/playback-time-which-consumer-attitudes-will-shape-the-streaming-wars/
 
-(6) Home sale and rental prices may rise after changes to P1 registration: Property experts
-<br> https://www.straitstimes.com/singapore/parenting-education/home-sale-and-rental-prices-may-rise-after-changes-to-p1-registration
+(6) Most Attractive Features of Video Streaming Service
+<br> https://www.cloudwards.net/streaming-services-statistics/
 
-(7) Primary School Rankings in Singapore 2020
-<br> https://schlah.com/primary-schools
+(7) Top Reasons to Subscribe to a New Streaming Service
+<br> https://www.cloudwards.net/streaming-services-statistics/
+
+(8) Streaming Industry Digital Market Share
+<br> https://www.similarweb.com/blog/insights/media-entertainment-news/streaming-q1-2023/#:~:text=The%20streaming%20industry%20has%20shown,in%20a%20post%2Dpandemic%20world
+
+(9) Singaporeans Asked if They Would Discontinue Their Current Streaming Services in The Next 6 Months.
+<br> https://blackbox.com.sg/everyone/streaming-services-in-singapore

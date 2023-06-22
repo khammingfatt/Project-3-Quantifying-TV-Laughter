@@ -1,7 +1,7 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project 3: Unveiling the Recipe for Comedy Success: Analyzing Viewer Preferences and Sentiment towards Popular Sitcoms
 
 ### **Try Out our B99 vs BBT Classifier Application Streamlit App by clicking the link below.**
-### [Brooklyn's Nine Nine and The Big Bang Theory Classifier and Sentiment Analysis](https://project-2streamlit-application-house-price-predictionr-n4fym7.streamlit.app/)
+### [Brooklyn's Nine Nine and The Big Bang Theory Classifier and Sentiment Analysis](https://project-3-recipe-for-comedy-success-tj0ysfqfwsi.streamlit.app/)
 
 <br>
 

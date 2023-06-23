@@ -107,7 +107,7 @@ Upon finished preprocessing the input, we are ready to deploy our data into **Ma
 
 <br>
 
-![Model Workflow](https://github.com/khammingfatt/Project-3-Recipe-for-Comedy-Success/blob/main/Modeling%20Workflow.jpg?raw=true)
+![Model Workflow](https://github.com/khammingfatt/Project-3-Recipe-for-Comedy-Success/blob/main/Modeling%20Workflow.png?raw=true)
 
 
 With reference to the workflow above, we used **vectorization techniques**. Vectorization involves transforming text data into numerical representations that machine learning models can process. One common approach is the **Count Vectorisation Model**, where each word in the text is represented as a separate feature, and the frequency or occurrence of each word is captured. Another approach is **Term Frequency-Inverse Document Frequency (TF-IDF)**, which considers not only the frequency of a word in a document but also its importance in the entire corpus.

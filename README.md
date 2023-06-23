@@ -58,12 +58,12 @@ Netflix aims to optimize their limited budget by retaining the most popular and 
 <br>
 
 ### Brief Description of Our Data Exploration
-Upon studying the datasets, we found out that these are the most important 10 factors that affects the housing price are given as below. Starting from the most important factor, we have floor area per square feet, max floor level and lease commence date.
+Upon studying the datasets, we found out that these are the most important 20 features that affect the classification model, with character names playing a big part in defining which class the posts belong to. In this case, positive SHAP values is indicative of The Big Bang Theory class. 
  
 ![SHAP Importance of Variables](https://github.com/khammingfatt/Project-3-Quantifying-TV-Laughter/blob/main/SHAP.png?raw=true)
 <br>
 
-We went further and break down the important features to classify the two shows separately and here are the details we get. The more positive the coefficient values, the more likely it is classified to Class 1 - Brooklyn's Nine Nine; On the other hand, the more negative the coefficient values, the more likely it is classified to Class 0 - The Big Bang Theory.
+We went further and break down the important features to classify the two shows separately, excluding character names, and here are the details we get. The more positive the coefficient values, the more likely it is classified to Class 1 - Brooklyn's Nine Nine; On the other hand, the more negative the coefficient values, the more likely it is classified to Class 0 - The Big Bang Theory.
 
 <br>
 

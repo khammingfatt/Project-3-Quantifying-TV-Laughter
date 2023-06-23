@@ -77,16 +77,15 @@ We went further and break down the important features to classify the two shows 
 | **Feature**         | **Type** | **Dataset**  | **Description**                                                  |
 |---------------------|----------|--------------|------------------------------------------------------------------|
 | **posts**           | object   | sitcom_df    | Combination of the reddit post title & the text in the main post |
-| **Subreddit_**      | interger | sitcom_df    | 0 = Big Bang Theory, 1 = Brooklyn Nine Nine                      |
-| **cleaned_text**    | object   | sitcom_df    | Formatted posts string for Bigrams Vectorization                 |
-| **cleaned_text_v2** | object   | sitcom_df    | Formatted posts string for Trigrams Vectorization                |
-| **len_posts**       | interger | sitcom_df_x  | Length of alphanumeric characters in a post                      |
-| **emojis**          | objects  | sitcom_df_x  | Emojis found in a post                                           |
-| **num_emojis**      | interger | sitcom_df_x  | Number of emojis found in a post                                 |
-| **neg**             | interger | sentiment_df | Negative sentiment values                                        |
-| **neu**             | interger | sentiment_df | Neutral sentiment values                                         |
-| **pos**             | interger | sentiment_df | Positive sentiment values                                        |
-| **compound**        | interger | sentiment_df | Compound sentiment values                                        |
+| **subreddit_**      | interger | sitcom_df    | Target feature, where 0 = Big Bang Theory, 1 = Brooklyn Nine Nine|
+| **len_posts**       | interger | sitcom_df    | Number of characters in a post                                   |
+| **post_word_count** | integer  | sitcom_df    | Number of words in a post                                        |
+| **emojis**          | objects  | sitcom_df    | Emojis found in a post                                           |
+| **num_emojis**      | interger | sitcom_df    | Number of emojis found in a post                                 |
+| **neg**             | interger | sitcom_df    | Negative sentiment values                                        |
+| **neu**             | interger | sitcom_df    | Neutral sentiment values                                         |
+| **pos**             | interger | sitcom_df    | Positive sentiment values                                        |
+| **compound**        | interger | sitcom_df    | Compound sentiment values                                        |
 
 
 ---
